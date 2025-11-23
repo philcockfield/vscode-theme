@@ -51,12 +51,18 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
     // Tree-view:
     "list.activeSelectionBackground": "#009FE6",
     "list.activeSelectionForeground": "#FFFFFF",
-
-    "list.inactiveSelectionBackground": "#009FE64D",
+    "list.inactiveSelectionBackground": "#009FE64D", // softer, semi-transparent
     "list.inactiveSelectionForeground": "#FFFFFF",
-
     "list.hoverBackground": "#00B2FF55",
-    "list.hoverForeground": "#FFFFFF"
+    "list.hoverForeground": "#FFFFFF",
+
+    // IntelliSense / suggest widget:
+    "editorSuggestWidget.background": "#252B3B",
+    "editorSuggestWidget.border": "#4A5266",
+    "editorSuggestWidget.foreground": "#D3D7E0",
+    "editorSuggestWidget.selectedBackground": "#009FE6",
+    "editorSuggestWidget.selectedForeground": "#FFFFFF",
+    "editorSuggestWidget.highlightForeground": "#00B2FF"
   }
 }
 ```
