@@ -1,17 +1,17 @@
 # vscode-theme
-
 VSCode Theme Settings
+
+<img width="1100" height="700" alt="image" src="https://github.com/user-attachments/assets/687010a6-b1a1-4d37-80d8-24ee7b046fc9" />
+
 
 <p>&nbsp;</p>
 
 ## Open Settings (JSON)
-
 Press **Cmd + Shift + P**, type “**Preferences: Open Settings (JSON)**”, and hit **Enter**.
 
 <p>&nbsp;</p>
 
 ## Theme Overrides
-
 These settings refine the overall editor appearance, tab bar, and tree-view selection behavior while keeping the `Monokai` color syntax intact.
 
 ```jsonc
