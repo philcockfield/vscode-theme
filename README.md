@@ -26,6 +26,13 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
     "editor.lineHighlightBackground": "#2A3040",
     "editor.foldBackground": "#14192080",
 
+    // Input controls (search panel + find/replace fields)
+    "input.background": "#2B3142",
+    "input.foreground": "#D3D7E0",
+    "input.border": "#3F4555",
+    "focusBorder": "#5C6A88",
+    "input.placeholderForeground": "#6A6F7C",
+
     // Layout chrome:
     "sideBar.background": "#252B3B",
     "activityBar.background": "#151821",
@@ -42,7 +49,6 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
     "panelTitle.inactiveForeground": "#5F6471",
     "terminal.background": "#212635",
     "minimap.background": "#212635",
-    "input.background": "#252B3B",
 
     // Tab-bar:
     "tab.inactiveBackground": "#3A4154",
