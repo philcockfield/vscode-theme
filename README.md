@@ -1,7 +1,7 @@
 # vscode-theme
 VSCode Theme Settings
 
-<img width="1100" height="700" alt="image" src="https://github.com/user-attachments/assets/687010a6-b1a1-4d37-80d8-24ee7b046fc9" />
+<img width="1098" height="726" alt="image" src="https://github.com/user-attachments/assets/869cede5-9fd4-41c6-9d5e-3562bcf7e159" />
 
 
 <p>&nbsp;</p>
