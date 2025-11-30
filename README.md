@@ -85,7 +85,7 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
           "comment.block.documentation.ts",
           "comment.block.documentation.js"
         ],
-        "settings": { "foreground": "#33915C" }
+        "settings": { "foreground": "#699679" }
       }
     ]
   }
