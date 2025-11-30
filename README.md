@@ -69,6 +69,25 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
     "editorSuggestWidget.selectedBackground": "#009FE6",
     "editorSuggestWidget.selectedForeground": "#FFFFFF",
     "editorSuggestWidget.highlightForeground": "#00B2FF"
+  },
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Line comments //",
+        "scope": ["comment.line", "comment.line.double-slash"],
+        "settings": { "foreground": "#7F848E" }
+      },
+      {
+        "name": "Docblock comments /** */",
+        "scope": [
+          "comment.block.documentation",
+          "comment.block.documentation.ts",
+          "comment.block.documentation.js"
+        ],
+        "settings": { "foreground": "#33915C" }
+      }
+    ]
   }
 }
 ```
