@@ -68,7 +68,14 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
     "editorSuggestWidget.foreground": "#D3D7E0",
     "editorSuggestWidget.selectedBackground": "#009FE6",
     "editorSuggestWidget.selectedForeground": "#FFFFFF",
-    "editorSuggestWidget.highlightForeground": "#00B2FF"
+    "editorSuggestWidget.highlightForeground": "#00B2FF",
+
+    // Terminal:
+    "terminal.foreground": "#D3D7E0",
+    "terminal.ansiBlack": "#1B202C",
+    "terminal.ansiBrightBlack": "#7F848E",
+    "terminal.ansiWhite": "#D3D7E0",
+    "terminal.ansiBrightWhite": "#FFFFFF"
   },
 
   "editor.tokenColorCustomizations": {
