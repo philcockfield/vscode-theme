@@ -17,8 +17,8 @@ Press **Cmd + Shift + P**, type “**Preferences: Open Settings (JSON)**”, and
 These settings refine the overall editor appearance, tab bar, and tree-view selection behavior while keeping the `Monokai` color syntax intact.
 
 ```jsonc
-{
-  // --- Theme ----------------------------------
+  // --- Theme ----------------------------------------------------------
+  //
   "workbench.colorCustomizations": {
     // Editor:
     "editor.background": "#1B202C",
@@ -75,7 +75,7 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
     "terminal.ansiBlack": "#1B202C",
     "terminal.ansiBrightBlack": "#7F848E",
     "terminal.ansiWhite": "#D3D7E0",
-    "terminal.ansiBrightWhite": "#FFFFFF"
+    "terminal.ansiBrightWhite": "#FFFFFF",
   },
 
   "editor.tokenColorCustomizations": {
@@ -83,21 +83,25 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
       {
         "name": "Line comments //",
         "scope": ["comment.line", "comment.line.double-slash"],
-        "settings": { "foreground": "#7F848E" }
+        "settings": { "foreground": "#7F848E" },
       },
       {
         "name": "Docblock comments /** */",
         "scope": [
           "comment.block.documentation",
           "comment.block.documentation.ts",
-          "comment.block.documentation.js"
+          "comment.block.documentation.js",
         ],
-        "settings": {
-          "foreground": "#82A1AC",
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  }
-}
+        "settings": { "foreground": "#82A1AC", "fontStyle": "italic" },
+      },
+      {
+        "name": "Block comments /* */",
+        "scope": ["comment.block", "comment.block.ts", "comment.block.js"],
+        "settings": { "foreground": "#7F848E" },
+      },
+    ],
+  },
+  //
+  // --- Theme (End) ----------------------------------------------------------
+
 ```
