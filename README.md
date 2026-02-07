@@ -17,6 +17,15 @@ Press **Cmd + Shift + P**, type “**Preferences: Open Settings (JSON)**”, and
 These settings refine the overall editor appearance, tab bar, and tree-view selection behavior while keeping the `Monokai` color syntax intact.
 
 ```jsonc
+{
+  // --- Font ----------------------------------------------------------
+  //
+  "debug.console.fontFamily": "Source Code Pro Medium",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.0,
+  "terminal.integrated.fontWeight": "normal",
+
   // --- Theme ----------------------------------------------------------
   //
   "workbench.colorCustomizations": {
@@ -103,5 +112,5 @@ These settings refine the overall editor appearance, tab bar, and tree-view sele
   },
   //
   // --- Theme (End) ----------------------------------------------------------
-
+}
 ```
